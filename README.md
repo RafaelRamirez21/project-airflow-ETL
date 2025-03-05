@@ -1,18 +1,30 @@
-# project-airflow-ETL
-##Instructions
-Now that you are equipped with the knowledge and skills to extract, transform and load data you will use these skills to perform ETL, create a pipeline and upload the data into a database. You will use BashOperator with Airflow in the hands-on lab.
-
-##Scenario
-You are a data engineer at a data analytics consulting company. You have been assigned a project to decongest the national highways by analyzing the road traffic data from different toll plazas. Each highway is operated by a different toll operator with a different IT setup that uses different file formats. Your job is to collect data available in different formats and consolidate it into a single file.
-
-In this assignment, you will develop an Apache Airflow DAG that will:
-
-Extract data from a csv file
-
-Extract data from a tsv file
-
-Extract data from a fixed-width file
-
-Transform the data
-
-Load the transformed data into the staging area
+   <h1>ETL Pipeline with Airflow</h1>
+    <p>That sounds like an interesting and challenging project! Let's break down the steps to develop an Apache Airflow DAG for this ETL process:</p>
+    <ol>
+        <li><strong>Set Up Your Environment</strong>:
+            <ul>
+                <li>Ensure you have Apache Airflow installed and configured.</li>
+                <li>Create a new DAG file in your Airflow DAGs directory.</li>
+            </ul>
+        </li>
+        <li><strong>Define the DAG</strong>:
+            <ul>
+                <li>Import necessary modules and define the DAG with its schedule and default arguments.</li>
+            </ul>
+        </li>
+        <li><strong>Extract Data</strong>:
+           ashOperator</code> to extract data from different file formats (CSV, TSV, and fixed-width).</li>
+            </ul>
+        </li>
+        <li><strong>Transform Data</strong>:
+            <ul>
+                <li>Use Python or another tool to transform the extracted data into a consistent format.</li>
+            </ul>
+        </li>
+        <li><strong>Load Data</strong>:
+            <ul>
+                <li>Load the transformed data into the staging area (e.g., a database).</li>
+            </ul>
+        </li>
+    </ol>
+    <h2>Sample Code</h2>
