@@ -1,6 +1,5 @@
     <title>ETL Instructions</title>
-</head>
-<body>
+
     <h1>Instructions</h1>
     <p>Now that you are equipped with the knowledge and skills to extract, transform and load data you will use these skills to perform ETL, create a pipeline and upload the data into a database. You will use BashOperator with Airflow in the hands-on lab.</p>
     
@@ -16,4 +15,4 @@
         <li>Transform the data</li>
         <li>Load the transformed data into the staging area</li>
     </ul>
-</body>
+
